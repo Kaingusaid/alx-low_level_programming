@@ -21,7 +21,6 @@ if (b == 0)
 _putchar ('0');
 }
 if (b != 0)
-{
 _putchar (' ');
 _putchar ((c % 10) + '0');
 }

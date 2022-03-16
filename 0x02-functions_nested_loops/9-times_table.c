@@ -18,7 +18,8 @@ if ((c / 10) == 0)
 {
 if (b == 0)
 {
-_putchar ('0');}
+_putchar ('0');
+}
 if (b != 0)
 {
 _putchar (' ');
@@ -38,7 +39,7 @@ if (b < 9)
 {
 _putchar(',');
 _putchar (' ');
-}				
+}
 }
 }
 _putchar ('\n');

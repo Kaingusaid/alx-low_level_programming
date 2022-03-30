@@ -8,6 +8,7 @@
  * @s2: is a pointer to char.
  *
  * Return: Returns the transformed pointer.
+ *
  **/
 
 int wildcmp(char *s1, char *s2)

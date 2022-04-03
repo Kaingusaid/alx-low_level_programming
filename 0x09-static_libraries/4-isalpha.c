@@ -2,24 +2,22 @@
 
 
 /**
- * _isalpha - Return 1 if c is a letter. lowercase or uppercase
- *
- * @c: The int to print
- * Return: Always 0.
+ *_isalpha - display 1 to lower/upper case, 0 otherwise
+ *@c: parameter character or ascii code
+ **Return: 0 or 1
  */
-
 int _isalpha(int c)
-
 {
+	int result;
 
-if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
-{
-return (1);
-}
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	{
+		result = 1;
+	}
+	else
+	{
+		result = 0;
+	}
 
-else
-{
-return (0);
-}
-
+	return (result);
 }
